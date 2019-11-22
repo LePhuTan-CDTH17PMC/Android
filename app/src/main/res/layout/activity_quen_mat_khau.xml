@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Quen_mat_khau">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="298dp"
+        android:layout_height="160dp"
+        android:src="@drawable/ai_la_trieu_phu" />
+
+    <EditText
+        android:id="@+id/edtTendangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_textbox"
+        android:ems="10"
+        android:hint="Tên đăng nhập"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_textbox"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+
+        android:id="@+id/btnLaymk"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="#00E3FF"
+        android:text="Lấy lại mật khẩu"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

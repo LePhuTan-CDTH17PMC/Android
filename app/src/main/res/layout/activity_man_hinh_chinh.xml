@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Man_hinh_chinh">
+
+    <ImageView
+        android:id="@+id/anhdaidien"
+        android:layout_width="298dp"
+        android:layout_height="166dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/txtTenTK"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/kim_cuong" />
+
+        <TextView
+            android:id="@+id/textsotien"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5"
+            android:text="Số tiền chơi" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnquanlyTK"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#00BCD4"
+        android:text="Quản lý tài khoản"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/btncredit"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#E91E63"
+        android:text="Mua credit"
+        />
+
+    <Button
+        android:id="@+id/btnbangxephang"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#3F51B5"
+        android:text="Bảng xếp hạng"
+        />
+
+    <Button
+        android:id="@+id/btntrochoimoi"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:background="#FF9800"
+        android:text="Trò chơi mới"
+        android:onClick="Play"
+        />
+
+    <Button
+        android:id="@+id/btnlichsuchoi"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#4CAF50"
+        android:text="Lịch sử chơi"
+        />
+
+</LinearLayout>

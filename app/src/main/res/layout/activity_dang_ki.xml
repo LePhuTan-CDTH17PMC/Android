@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Dang_ki"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:visibility="visible">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/ai_la_trieu_phu" />
+
+    <EditText
+        android:id="@+id/edtTendangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_textbox"
+        android:ems="10"
+        android:hint="Tên đăng nhập"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_textbox"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtMK"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_textbox"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPersonName"
+        android:password="true" />
+    <EditText
+        android:id="@+id/edtXacnhanMK"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_textbox"
+        android:ems="10"
+        android:hint="Xác nhãn Mật khẩu"
+        android:inputType="textPersonName"
+        android:password="true" />
+
+    <Button
+
+        android:id="@+id/btnDK"
+        android:layout_width="298dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="#00E3FF"
+        android:text="Đăng kí"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
